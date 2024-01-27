@@ -22,6 +22,11 @@
         "value": "",
         "required": true
       },
+      "MUSIC_BOT_NAME": {
+        "description": "Nama untuk Bot Musik Anda. Tolong jangan gunakan karakter ascii",
+        "value": "",
+        "required": true
+      },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
         "value": "",
@@ -32,15 +37,50 @@
         "value": "",
         "required": true
       },
+      "START_IMG_URL": {
+        "description": "ambil link image telegraph"
+        "value": "",
+        "required": true 
+      },
       "OWNER_ID": {
         "description": "The user id of user whom you would like to add as OWNER.",
         "value": "",
         "required": true
       },
+      "MUST_JOIN": {
+        "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
+        "required": true,
+        "value": "-100"
+      },
       "STRING_SESSION": {
         "description": "A Pyrogram v2 String Session from @StringFatherBot on Telegram.",
         "value": "",
         "required": true
+      },
+      "DURATION_LIMIT": {
+        "description": "diisi, berapa panjang durasi maksimal lagu!",
+        "required": true,
+        "value": "280"
+      },
+      "UPSTREAM_REPO": {
+        "description": "link upstream in your repo music"
+        "value": "",
+        "required": false
+      },
+      "UPSTREAM_BRANCH": {
+        "description": "repo's branch name"
+        "value": "master",
+        "required": ""
+      },
+      "SUPPORT_CHANNEL": {
+        "description": "Tautan Channel Dukungan jika ada, Biarkan kosong jika tidak ada dukungan. Tautan Anda harus dimulai dengan https://t.me/",
+        "value": "https://t.me/Thvrxv",
+        "required": false
+      },
+      "SUPPORT_GROUP": {
+        "description": "Tautan Group Dukungan jika ada, Biarkan kosong jika tidak ada dukungan. Tautan Anda harus dimulai dengan https://t.me/",
+        "value": "https://t.me/Cari_Teman_Kenalan_Pacar_Id",
+        "required": false
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
